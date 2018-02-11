@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Deck {
 	private int number_of_each_type = 13;
@@ -109,6 +110,7 @@ public class Deck {
 		for(int i = 0; i < 4; i++){
 			fin[i] = deck_of_card.get(i + 50);
 		}
+
 		return fin;
 	}
 	
